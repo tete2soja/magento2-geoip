@@ -59,6 +59,7 @@ class GeoIpService
     ) {
         $this->moduleDirectory = $moduleDirectory;
         $this->readerFactory = $readerFactory;
+        $this->remoteAddress = $remoteAddress;
         $this->request = $request;
     }
 
